@@ -355,7 +355,10 @@
 "Assets/Sandbox/Topdown/Import Assets/Cainos/Pixel Art Top Down - Basic/Script/SpriteColorAnimation.cs"
 "Assets/Sandbox/Topdown/Import Assets/Cainos/Pixel Art Top Down - Basic/Script/TopDownCharacterController.cs"
 "Assets/Sandbox/Topdown/Script/Game Handler/Timer.cs"
-"Assets/Sandbox/Topdown/Script/Player/Movement/Move.cs"
+"Assets/Script/Character/Health/Sanity.cs"
+"Assets/Script/Character/Movement/Move.cs"
+"Assets/Script/Mechanic/Sanity/Refill.cs"
+"Assets/Script/Mechanic/Sanity/SanityBar.cs"
 -langversion:8.0
 
 /deterministic
