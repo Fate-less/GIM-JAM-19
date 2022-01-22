@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Sanity : MonoBehaviour
 {
@@ -19,9 +20,13 @@ public class Sanity : MonoBehaviour
     private void Update()
     {
         TakeDamage(1 * Time.deltaTime);
+        if (currentHealth <= 0)
+        {
+            SceneManager.LoadScene(3);
+        }
     }
 
-    void TakeDamage(float damage)
+    public void TakeDamage(float damage)
     {
         currentHealth -= damage;
         sanityBar.SetHealth(currentHealth);

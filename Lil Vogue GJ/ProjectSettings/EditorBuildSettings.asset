@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Sandbox/Topdown/Scene/Night_test.unity
-    guid: 80d3cf73cc43b0345907e78a04276127
+    path: Assets/Scenes/Other/Main Menu.unity
+    guid: 10dc9c187b50f3b469c9cd60c0ce3d9e
   - enabled: 1
-    path: Assets/Sandbox/Topdown/Scene/Morning_test.unity
-    guid: 2c047e39662ef8f4caea07e0e2a5de19
+    path: Assets/Scenes/Levels/Morning/Morning.unity
+    guid: 663e8faf60b054548bc2a1e3d3f45e0a
+  - enabled: 1
+    path: Assets/Scenes/Levels/Night/Night.unity
+    guid: a94c00f985be71744ab07dc40e87b0b0
+  - enabled: 1
+    path: Assets/Scenes/Other/Game Over.unity
+    guid: bd84c9d2beef57249a5fa49791cb83b6
   m_configObjects: {}

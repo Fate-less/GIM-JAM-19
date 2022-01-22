@@ -357,6 +357,7 @@
 "Assets/Sandbox/Topdown/Script/Game Handler/Timer.cs"
 "Assets/Script/Character/Health/Sanity.cs"
 "Assets/Script/Character/Movement/Move.cs"
+"Assets/Script/Character/NPC/SanityDrain.cs"
 "Assets/Script/Mechanic/Sanity/Refill.cs"
 "Assets/Script/Mechanic/Sanity/SanityBar.cs"
 -langversion:8.0

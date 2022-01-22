@@ -60,6 +60,7 @@
     <Compile Include="Assets\Sandbox\Side-scrolling test\Script\Level\NextScene.cs" />
     <Compile Include="Assets\Sandbox\Side-scrolling test\Script\Player\Movement\Movement.cs" />
     <Compile Include="Assets\Sandbox\Topdown\Import Assets\Cainos\Pixel Art Top Down - Basic\Script\PropsAltar.cs" />
+    <Compile Include="Assets\Script\Character\NPC\SanityDrain.cs" />
     <Compile Include="Assets\Script\Character\Movement\Move.cs" />
     <Compile Include="Assets\Sandbox\Side-scrolling test\Script\Level\vectorValue.cs" />
     <Compile Include="Assets\Sandbox\Topdown\Script\Game Handler\Timer.cs" />
