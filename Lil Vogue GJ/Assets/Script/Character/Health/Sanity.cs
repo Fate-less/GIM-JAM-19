@@ -8,6 +8,7 @@ public class Sanity : MonoBehaviour
 {
     public float maxHealth = 100;
     public float currentHealth;
+    public SoundManager soundManager;
 
     public SanityBar sanityBar;
 
@@ -23,6 +24,14 @@ public class Sanity : MonoBehaviour
         if (currentHealth <= 0)
         {
             SceneManager.LoadScene(3);
+        }
+        if (currentHealth <= 50)
+        {
+            soundManager.LowHP();
+        }
+        else
+        {
+            soundManager.HighHP();
         }
     }
 

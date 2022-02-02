@@ -56,27 +56,45 @@
     <Analyzer Include="K:\Microsoft\Visual Studio IDE\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Sandbox\Topdown\Import Assets\Cainos\Pixel Art Top Down - Basic\Script\TopDownCharacterController.cs" />
+    <Compile Include="Assets\Sandbox\Topdown\Script\Game Handler\ResetProgress.cs" />
+    <Compile Include="Assets\Import Assets\Cainos\Pixel Art Top Down - Basic\Script\TopDownCharacterController.cs" />
+    <Compile Include="Assets\Script\Audio\SoundManager\SoundManager.cs" />
     <Compile Include="Assets\Sandbox\Side-scrolling test\Script\Level\NextScene.cs" />
     <Compile Include="Assets\Sandbox\Side-scrolling test\Script\Player\Movement\Movement.cs" />
-    <Compile Include="Assets\Sandbox\Topdown\Import Assets\Cainos\Pixel Art Top Down - Basic\Script\PropsAltar.cs" />
-    <Compile Include="Assets\Script\Character\NPC\SanityDrain.cs" />
+    <Compile Include="Assets\Import Assets\Cainos\Pixel Art Top Down - Basic\Script\PropsAltar.cs" />
+    <Compile Include="Assets\Script\Audio\Ghost\Spawn.cs" />
+    <Compile Include="Assets\Script\Object\Storywall\FIFTH.cs" />
+    <Compile Include="Assets\Script\Object\Artifacts\Artifact.cs" />
+    <Compile Include="Assets\Script\Character\NPC\Enemy\SanityDrain.cs" />
     <Compile Include="Assets\Script\Character\Movement\Move.cs" />
+    <Compile Include="Assets\Script\Mechanic\Dialogue\StoryElement.cs" />
+    <Compile Include="Assets\Script\Mechanic\Game Handler\PopUp.cs" />
     <Compile Include="Assets\Sandbox\Side-scrolling test\Script\Level\vectorValue.cs" />
-    <Compile Include="Assets\Sandbox\Topdown\Script\Game Handler\Timer.cs" />
+    <Compile Include="Assets\Script\Object\Storywall\SEVENTH.cs" />
+    <Compile Include="Assets\Script\Object\Storywall\THIRD.cs" />
+    <Compile Include="Assets\Script\Mechanic\Dialogue\DialogueManager.cs" />
+    <Compile Include="Assets\Script\Mechanic\Game Handler\Timer.cs" />
+    <Compile Include="Assets\Script\Object\Storywall\FIRST.cs" />
     <Compile Include="Assets\Script\Character\Health\Sanity.cs" />
-    <Compile Include="Assets\Sandbox\Topdown\Import Assets\Cainos\Pixel Art Top Down - Basic\Script\LayerTrigger.cs" />
-    <Compile Include="Assets\Sandbox\Topdown\Import Assets\Cainos\Pixel Art Top Down - Basic\Script\CameraFollow.cs" />
+    <Compile Include="Assets\Import Assets\Cainos\Pixel Art Top Down - Basic\Script\LayerTrigger.cs" />
+    <Compile Include="Assets\Import Assets\Cainos\Pixel Art Top Down - Basic\Script\CameraFollow.cs" />
+    <Compile Include="Assets\Script\Object\Storywall\EIGHTH.cs" />
     <Compile Include="Assets\Script\Mechanic\Sanity\SanityBar.cs" />
     <Compile Include="Assets\Sandbox\Side-scrolling test\Script\Object\Clue\Clue.cs" />
     <Compile Include="Assets\Sandbox\Side-scrolling test\Script\Level\PrevScene.cs" />
-    <Compile Include="Assets\Sandbox\Topdown\Import Assets\Cainos\Pixel Art Top Down - Basic\Script\SpriteColorAnimation.cs" />
+    <Compile Include="Assets\Import Assets\Cainos\Pixel Art Top Down - Basic\Script\SpriteColorAnimation.cs" />
+    <Compile Include="Assets\Script\Object\Storywall\SECOND.cs" />
+    <Compile Include="Assets\Script\Audio\Ghost\Haunt.cs" />
+    <Compile Include="Assets\Script\Mechanic\Dialogue\Dialogue.cs" />
+    <Compile Include="Assets\Script\Object\Storywall\SIXTH.cs" />
     <Compile Include="Assets\Script\Mechanic\Sanity\Refill.cs" />
+    <Compile Include="Assets\Script\Object\Storywall\FORTH.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Sandbox\Topdown\Import Assets\Cainos\Pixel Art Top Down - Basic\Changelog.txt" />
-    <None Include="Assets\Sandbox\Topdown\Import Assets\Cainos\Pixel Art Top Down - Basic\Shader\SH Sprite Shadow.shader" />
-    <None Include="Assets\Sandbox\Topdown\Import Assets\Cainos\Pixel Art Top Down - Basic\Shader\SH Sprite Shadow Mask.shader" />
+    <None Include="Assets\Import Assets\Cainos\Pixel Art Top Down - Basic\Changelog.txt" />
+    <None Include="Assets\Import Assets\Cainos\Pixel Art Top Down - Basic\Shader\SH Sprite Shadow.shader" />
+    <None Include="Assets\Sprite\Horror Game Assets\Tilesets\TilesetsNotes.txt" />
+    <None Include="Assets\Import Assets\Cainos\Pixel Art Top Down - Basic\Shader\SH Sprite Shadow Mask.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -311,7 +329,7 @@
       <HintPath>K:\Unity\Editor\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Pathfinding.Ionic.Zip.Reduced">
-      <HintPath>Assets\Sandbox\Topdown\Import Assets\AstarPathfindingProject\Plugins\DotNetZip\Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+      <HintPath>Assets\Import Assets\AstarPathfindingProject\Plugins\DotNetZip\Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.6.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
